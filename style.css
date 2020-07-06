@@ -7,7 +7,7 @@ html, body {
     margin: 100px auto;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 20px repeat(6, 1fr) 20px;
 
     border: 2px solid darkorange;
 }
