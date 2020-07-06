@@ -15,7 +15,7 @@ html, body {
     border: 2px solid darkorange;
 }
 
-.wrapper * {
+.wrapper .box {
     padding: 20px;
     background: rgba(255,140,0, .8);
     border: 1px solid darkorange;
@@ -26,10 +26,18 @@ html, body {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.box2 { 
+.nested {
+    background-color: deepskyblue;
+    border: 1px solid lightskyblue;
+}
+
+/* .box2 { 
     grid-column-start: 1; 
     grid-row-start: 3; 
     grid-row-end: 5; 
-}
+} */
